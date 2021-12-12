@@ -70,8 +70,8 @@ contract Decentragram {
     //Increment tip amount
 
     _image.tipAmount = _image.tipAmount + msg.value;
-    //Update Image
     
+    //Update Image    
     images[_id] = _image;
 
     //Trigger an event
